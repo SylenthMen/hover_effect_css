@@ -1,0 +1,70 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #dedede;
+}
+section{
+    position: absolute;
+    background: #222;
+    width: 750px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50px;
+    padding: 75px;
+}
+
+ul {
+    position: relative;
+    display: flex;
+}
+
+ul li {
+    position: relative;
+    list-style: none;
+    margin: 0 50px;
+    cursor: pointer;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+ul li a .fab {
+    font-size: 6em;
+    color: #fff;
+    transition: 0.5s;
+}
+
+
+
+.fab.fa-linux:hover{
+    color: #000;
+    transition: 0.5s;
+    background: rgba(0,0,0,0.2);
+    padding: 10px;
+}
+
+.fab.fa-windows:hover{
+    transition: 0.5s;
+    color: rgb(51, 224, 255);
+    background: rgba(0,0,0,0.2);
+    padding: 10px;
+}
+
+.fab.fa-apple:hover {
+    transition: 0.5s;
+    color: #444;
+    background: rgba(0,0,0,0.2);
+    padding: 10px;
+    /*color: #fa3591;*/
+}
